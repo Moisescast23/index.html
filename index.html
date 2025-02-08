@@ -6,47 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="https://www.adidas.pe/" target="_blank">Este es un enlace para Adidas</a>
-    <p style="color: red;">Certus </p>
-    <p title="Este es un texto de ayuda">Este es un párrafo</p>
-<video width="500px" height="500px" controls autoplay>
-    <source src="rugido.mp4" type="video/mp4">
+    <form action="page.html" target="_blank">
+        <label for="codigo">Código</label>
+        <input type="text" id="codigo" name="codigo"><br>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="precio">Precio</label>
+        <input type="text" id="precio" name="precio"><br>
 
-</video>
-<br>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/acspyOTJQv4?si=fkU3Ggj6WRX41_YS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<br>
-
-<audio controls loop>
-    <source src="rugido.mp3" type="audio/mp3">
-
-</audio>
-<br>
-<form>
-    <input type="text" name="codigo" id="codigo2">
-    <input type="text" name="nombre" id="nombre" value="Televisor">
-    <input type="text" name="precio" id="precio" placeholder="Ingreso el precio del producto">
-
-</form>
-<br>
-<form>
-    <label for="codigo">
-        Código del producto 
-    </label>
-    <input type="text" id="codigo">
-</form>
-<br>
-
-<form>
-    <label for="dni">DNI</label>
-    <input type="radio" id="dni" name="tipo_documento" checked><br>
-    <label for="pasaporte">Pasaporte</label>
-    <input type="radio" id="pasaporte" name="tipo_documento"><br>
-    <label for="otro">Otro</label>
-    <input type="radio" id="otro" name="tipo_documento">
-    
-</form>
+        <input type="submit" value="Enviar">
+    </form>
 
 
 
