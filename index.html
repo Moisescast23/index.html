@@ -6,32 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="resultado"></div>
-    <button onclick="javascript: sumar(20,30);">Sumar</button>
-    <button onclick="javascript: restar(20,30);">Restar</button>
-    <button onclick="javascript: multiplicar(20,30);">Multiplicar</button>
-    <button onclick="javascript: dividir(20,30);">Dividir</button>
+   
     <script>
-        function sumar(valor1,valor2)
-        {
-            var resultado=valor1+valor2
-            document.getElementById("resultado").innerHTML="Suma:"+resultado
-        }
-        function restar(valor1,valor2)
-        {
-            var resultado=valor1-valor2
-            document.getElementById("resultado").innerHTML="Resta"+resultado
-        }
-        function multiplicar(valor1,valor2)
-        {
-            var resultado=valor1*valor2
-            document.getElementById("resultado").innerHTML="Multiplicación"+resultado
-        }
-        function dividir(valor1,valor2)
-        {
-            var resultado=valor1/valor2
-            document.getElementById("resultado").innerHTML="Dvidisión"+resultado
-        }
+        document.write((20==20)+"<br>");
+        document.write((20==="20")+"<br>");
+        document.write((20>10)+"<br>");
+        document.write((2<10)+"<br>");
+        document.write((20!="20")+"<br>");
+        document.write((20!=="20")+"<br>");
+
     </script>
 </body>
 </html>
