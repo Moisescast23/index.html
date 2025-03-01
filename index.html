@@ -8,9 +8,12 @@
 <body>
    
     <script>
-        document.write((20==20)&&(10>5)+"<br>");
-        document.write((20<10)||(10>5)+"<br>");
-        document.write(!(20<10)+"<br>");
+        var a=false;
+        var b=true;
+        var c=false;
+        var d=true;
+
+        document.write((!!!!(d)&&!!(a))||(!!!(10>5)&&!!!!!!(c))+"<br>");
 
     </script>
 </body>
