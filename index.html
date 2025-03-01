@@ -7,14 +7,13 @@
 </head>
 <body>
     <div id="resultado"></div>
-
+    <button onclick="javascript: sumar(20,30);">Sumar</button>
     <script>
         function sumar(valor1,valor2)
         {
-            var resultado=valor1+valor2;
-            return resultado;
+            var resultado=valor1+valor2
+            document.getElementById("resultado").innerHTML="El resultado es:"+resultado
         }
-        document.getElementById("resultado").innerHTML= "El resultado es:"+sumar(70,50);
     </script>
 </body>
 </html>
